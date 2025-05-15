@@ -8,3 +8,16 @@
 body{
     background-color: var(--cor-de-fundo);
 }
+
+.container{
+    height:100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.conteiner__botao{
+    background-color:var(--botao-verde);
+    border-radius: 5px;
+    padding: 1em;
+    color: #62964B;
+    display: block;
+}
