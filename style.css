@@ -3,10 +3,14 @@
     --botao-verde: #315831;
     --cor-de-fundo: #ACCE9F;
 --verde-secundario: #68AC4A;
+--fonte-principal: 'inter';
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal) ;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .container{
@@ -16,8 +20,18 @@ body{
 }
 .conteiner__botao{
     background-color:var(--botao-verde);
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 1em;
     color: #62964B;
     display: block;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--botao-verde);
+    display: block;
+    padding: 7px 5px;
+}
+.container_aviso{
+    font-size: 14px;
+    color: var(--verde-secundario)
 }
