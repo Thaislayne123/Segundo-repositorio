@@ -24,14 +24,39 @@ body{
     padding: 1em;
     color: #62964B;
     display: block;
+    margin-bottom: 1em;
 }
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--botao-verde);
     display: block;
-    padding: 7px 5px;
-}
+    padding: 10px 7px;
+    }
 .container_aviso{
     font-size: 14px;
     color: var(--verde-secundario)
+}
+
+.container_titulo{
+    font-size: 33px;
+    font-weight: 700;
+}
+.container_imagem{
+    margin: 5em 0 2em 0;
+}
+.container_caixa{
+    margin: 2em 5em;
+}
+
+.segunadria_imagem{
+    width: 80%;
+}
+.segundaria{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+margin-bottom: 0.2em;
 }
