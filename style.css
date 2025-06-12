@@ -54,9 +54,26 @@ body{
 .segundaria{
     align-items: center;
     margin: 0 10em;
-}
+    }
 .descricao_titulo{
     font-weight: 700;
     font-size: 48px;
 margin-bottom: 0.2em;
+color: var(--verde-secundario);
+}
+
+.segundario__botao{
+    display: inline-block;
+    margin: 1em;
+    color: var(--botao-verde);
+}
+.container__descricao{
+    padding: 1em;
+}
+
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+margin-bottom: 0.2em;
+color: var(--verde-secundario);
 }
